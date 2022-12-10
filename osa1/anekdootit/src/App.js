@@ -16,11 +16,10 @@ const App = () => {
   const [selected, setSelected] = useState(0);
   const [votes, setVotes] = useState(initialVotes);
   const handleClick = () => {
-    let kopio = [...votes];
-    kopio[selected] += 1;
-    setVotes(kopio);
+    let copy = [...votes];
+    copy[selected] += 1;
+    setVotes(copy);
   };
-
   return (
     <div>
       <Header header="Anecdote of the day" />

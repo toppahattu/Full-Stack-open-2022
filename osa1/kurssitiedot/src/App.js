@@ -5,8 +5,8 @@ const Header = ({name}) => {
 }
 
 const Content = (props) => {
-  const parts = props.parts.map((part, i) => 
-    <Part key={i} part={part} />
+  const parts = props.parts.map(part => 
+    <Part key={part.name} part={part} />
   );
   return (
     <div>
