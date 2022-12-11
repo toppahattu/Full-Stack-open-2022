@@ -1,0 +1,19 @@
+{
+  "persons": [
+    {
+      "name": "Noora Nevalainen",
+      "number": "0445698565",
+      "id": 1
+    },
+    {
+      "name": "Kekkonen",
+      "number": "132154",
+      "id": 2
+    },
+    {
+      "name": "Jouko Mälkönen",
+      "number": "0445396213",
+      "id": 3
+    }
+  ]
+}
